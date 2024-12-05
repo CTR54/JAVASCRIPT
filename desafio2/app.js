@@ -8,3 +8,11 @@ if (FimDeSemana == "sabado"){
  else{
     alert("Tenha uma boa semana")
 }
+
+let chuteNumerico = prompt("Digite um numero?")
+//erro no codigo
+if (chuteNumerico ==){
+    alert("O número digitado é negativo")
+} else{
+    alert("O número digitado é positivo")
+}
