@@ -1,6 +1,6 @@
 let altura = Number(prompt('digite sua altura: '))
 let peso = Number(prompt('digite seu peso: '))
-let resultadoImc = parseInt(altura * 2/ peso);
+let resultadoImc = peso / (altura * altura);
 alert (`o seu índice de massa corporal (IMC) é de ${resultadoImc}`);
 
 let numeroFatorial = Number(prompt('digite um número: '));
